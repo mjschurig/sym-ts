@@ -1,0 +1,13 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    reviewers:
+      - "maxschurig"
+    assignees:
+      - "maxschurig"
+    commit-message:
+      prefix: "deps"
+      include: "scope"
